@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-GameApplication<game>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.ecoquest.game.GameApplication",
+            "projectName": "game",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
