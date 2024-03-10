@@ -1,0 +1,12 @@
+com\ecoquest\game\service\McqService.class
+com\ecoquest\game\GameApplication.class
+com\ecoquest\game\service\UserProfileService.class
+com\ecoquest\game\exception\ResourceNotFoundException.class
+com\ecoquest\game\model\UserProfile.class
+com\ecoquest\game\service\HttpService.class
+com\ecoquest\game\controller\McqController.class
+com\ecoquest\game\repository\McqRepository.class
+com\ecoquest\game\model\Mcq.class
+com\ecoquest\game\model\Building.class
+com\ecoquest\game\repository\UserProfileRepository.class
+com\ecoquest\game\controller\UserProfileController.class

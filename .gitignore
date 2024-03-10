@@ -1,9 +1,4 @@
 # .gitignore
 
-# Exclude the entire target/ directory
-target/
-
-# Include the JAR file within target/
-!target/*.jar
 
 # ... other rules ...
