@@ -2,13 +2,11 @@ package com.ecoquest.game.service;
 
 import org.json.JSONObject;
 
-import java.sql.Date;
 import java.time.LocalDate;
 import java.util.List;
 import java.time.Month;
 
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.data.mongodb.core.aggregation.DateOperators.DayOfMonth;
 import org.springframework.stereotype.Service;
 
 import com.ecoquest.game.exception.ResourceNotFoundException;
@@ -16,7 +14,6 @@ import com.ecoquest.game.model.UserProfile;
 import com.ecoquest.game.model.Building;
 
 import com.ecoquest.game.repository.UserProfileRepository;
-import com.fasterxml.jackson.databind.util.JSONPObject;
 
 @Service
 public class UserProfileService {
