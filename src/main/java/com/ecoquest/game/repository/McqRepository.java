@@ -10,7 +10,7 @@ public interface McqRepository extends MongoRepository<Mcq, Integer> {
     @Query(value = "{}", fields = "{ '_id':1, 'question': 1, 'answers': 1}")
     List<Mcq> getQuestionsAndAnswers();
 
-    @Query(value = "{}", fields = "{ '_id': 1, 'crtAnswer': 1}")
+    @Query(value = "{}", fields = "{ '_id': 1, 'crtAnswer': 1, 'generalFeedback': 1, 'specificFeedback': 1}")
     List<Mcq> getCorrectAnswerList();
     
 } 

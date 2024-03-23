@@ -15,6 +15,8 @@ public class Mcq{
     private String question;
     private String[] answers;
     private int crtAnswer;
+    private String generalFeedback;
+    private String[] specificFeedback;
 
     @Override
     public String toString() {
